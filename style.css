@@ -1,0 +1,65 @@
+/* AJUSTES GERAIS */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #303030;
+}
+/* CABEÇALHO */
+
+header{
+    padding: 50px;
+}
+
+header h1{
+    text-align: center;
+    color: #efebe4;
+}
+
+header img{
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+/* TABUADA */
+
+main{
+    background-color: #efebe4;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+    color: black;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+main div input{
+    width: 200px;
+    height: 20px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+main div button{
+    background-color: rgb(12,112,242);
+    color: #efebe4;
+    border: 0px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main div p{
+    margin: 10px 0px 15px 0px;
+} 
